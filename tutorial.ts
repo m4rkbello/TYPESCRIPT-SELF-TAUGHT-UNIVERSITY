@@ -41,5 +41,13 @@ const User = {
 };
 
 // console.log(User.age); //walay output ni kay wala naka  declaired ang  variable
-User.fnMessage("PATOTOYA!");
+User.fnMessage("PADAYON LANG KAYA NIMO!");
 
+
+//ANOTHER SCENARIO
+
+const printId  = (id: string | number | boolean | number[])  => {
+    console.log("ID: " + id);
+};
+
+printId(1324234234234);
