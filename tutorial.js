@@ -1,18 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //para sa number
-// let id: number = 5;
+let id = 5;
 //para sa strings
-var programming = "alaw utsbo";
+let programming = "alaw utsbo";
 //para sa boolean
-var isPatotoya = false;
+let isPatotoya = false;
 //para sa  array
-var numberRange = [5, 10, 15, 20, 25];
+let numberRange = [5, 10, 15, 20, 25];
 //para sa array, string, boolean, number
-var assorted = "qwerty101";
+let assorted = "qwerty101";
 //para sa array, string, boolean, number
-var assortedData = [1212, "3434343fdgdfg", true,];
+let assortedData = [1212, "3434343fdgdfg", true,];
 //ADD CONCATENATION MEANS SI PALDO UG PATOTOYA ISUMPAY PALDO PATOTOYA
-// ayaw =  "bata pako kol";
-// kol =  "pandesal init";
-// const concatValue = (ayaw, kol) =>{
-//     return ayaw + kol;
-// };
+const concatValue = (a, b) => {
+    return a + b;
+};
+console.log(concatValue("PADAYON LANG", "SAGDI ANG WALAY BILIB"));
+const User = {
+    id: 1,
+    name: "MARK BELLO",
+};
+console.log(User.age);
+//# sourceMappingURL=tutorial.js.map

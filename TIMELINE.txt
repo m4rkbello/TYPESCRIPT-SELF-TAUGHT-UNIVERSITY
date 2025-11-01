@@ -8,4 +8,5 @@
 ->npm install -g ts-node typescript
 
 4. FOR RUNNING THE FILE OF TYPESCRIPT IT WOOULD BE 
-->ts-node tutorial.ts
+->ts-node tutorial.ts  //if .ts(typescript) ang extention
+->node  tutorial.js //if .js(javascript) ang extention

@@ -17,10 +17,24 @@ let assorted: any = "qwerty101";
 let assortedData:  any[] = [1212,"3434343fdgdfg",true,];
 
 //ADD CONCATENATION MEANS SI PALDO UG PATOTOYA ISUMPAY PALDO PATOTOYA
-
-const concatValue = (a: string, b: string) =>{
+const concatValue = (a: string, b: string): string =>{
     return a + b;
 };
 
 console.log(concatValue("PADAYON LANG", "SAGDI ANG WALAY BILIB"));
+
+
+//ADD INTERFACE SA AS BLUE PRINT OR BLUEMAP 
+interface userInterface{
+    id: number,
+    name: string,
+    age?: number, //pasabot ani kay optional
+}
+
+const User = {
+    id:  1,
+    name: "MARK BELLO",
+};
+
+console.log(User.age);
 
