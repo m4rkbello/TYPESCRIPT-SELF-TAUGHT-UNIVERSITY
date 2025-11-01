@@ -29,12 +29,17 @@ interface userInterface{
     id: number,
     name: string,
     age?: number, //pasabot ani kay optional
+    fnMessage(mnessage: string): void;
 }
 
 const User = {
     id:  1,
     name: "MARK BELLO",
+    fnMessage(message: string): void{
+        console.log(message);
+    }
 };
 
-console.log(User.age);
+// console.log(User.age); //walay output ni kay wala naka  declaired ang  variable
+User.fnMessage("PATOTOYA!");
 

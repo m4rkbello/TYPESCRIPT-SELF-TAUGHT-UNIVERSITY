@@ -20,6 +20,10 @@ console.log(concatValue("PADAYON LANG", "SAGDI ANG WALAY BILIB"));
 const User = {
     id: 1,
     name: "MARK BELLO",
+    fnMessage(message) {
+        console.log(message);
+    }
 };
-console.log(User.age);
+// console.log(User.age); //walay output ni kay wala naka  declaired ang  variable
+User.fnMessage("PATOTOYA!");
 //# sourceMappingURL=tutorial.js.map
