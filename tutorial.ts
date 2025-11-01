@@ -17,8 +17,10 @@ let assorted: any = "qwerty101";
 let assortedData:  any[] = [1212,"3434343fdgdfg",true,];
 
 //ADD CONCATENATION MEANS SI PALDO UG PATOTOYA ISUMPAY PALDO PATOTOYA
-ayaw =  "bata pako kol";
-kol =  "pandesal init";
-const concatValue = (ayaw, kol) =>{
-    return ayaw + kol;
+
+const concatValue = (a: string, b: string) =>{
+    return a + b;
 };
+
+console.log(concatValue("PADAYON LANG", "SAGDI ANG WALAY BILIB"));
+

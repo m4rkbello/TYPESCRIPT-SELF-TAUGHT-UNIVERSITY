@@ -3,3 +3,6 @@
 
 2. INSTALL TYPESCRIPT GENERATE TSCONFIG FILE AS
 ->tsc --init
+
+3. FOR PREREQUISITE 
+->npm install -g ts-node typescript
