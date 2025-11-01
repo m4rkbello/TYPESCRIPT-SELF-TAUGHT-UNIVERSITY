@@ -6,3 +6,6 @@
 
 3. FOR PREREQUISITE 
 ->npm install -g ts-node typescript
+
+4. FOR RUNNING THE FILE OF TYPESCRIPT IT WOOULD BE 
+->ts-node tutorial.ts
