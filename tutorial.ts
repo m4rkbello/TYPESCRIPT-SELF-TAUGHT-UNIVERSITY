@@ -32,7 +32,7 @@ interface userInterface{
     fnMessage(mnessage: string): void;
 }
 
-const User = {
+const User: userInterface = {
     id:  1,
     name: "MARK BELLO",
     fnMessage(message: string): void{
@@ -43,11 +43,21 @@ const User = {
 // console.log(User.age); //walay output ni kay wala naka  declaired ang  variable
 User.fnMessage("PADAYON LANG KAYA NIMO!");
 
+//ADD CONDITION IFELSE
+if(!User.age){
+    console.log("WALAY EDAD!");
+}else{
+    console.log(User.age);
+}
+
 
 //ANOTHER SCENARIO
-
 const printId  = (id: string | number | boolean | number[])  => {
     console.log("ID: " + id);
 };
+
+
+
+
 
 printId(1324234234234);
